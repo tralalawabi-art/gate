@@ -37,7 +37,6 @@ USER qwen
 ENV QWEN_GATE_PORT=26405
 ENV NODE_ENV=production
 EXPOSE 26405
-VOLUME [ "/app/.qwen" ]
 
 HEALTHCHECK --interval=30s --timeout=5s --start-period=15s --retries=3 \
   CMD wget -qO- http://localhost:26405/v1/models || exit 1
