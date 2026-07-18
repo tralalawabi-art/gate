@@ -1,0 +1,8 @@
+{
+  "name": "Qwen Gate",
+  "description": "OpenAI-compatible API gateway for Qwen models with multi-account rotation, tool calling, streaming SSE, and web dashboard",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
